@@ -39,7 +39,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5500",
-      "https://eventhub-eight-gamma.vercel.app/",
+      "https://eventhub-eight-gamma.vercel.app",
     ],
     credentials: true,
   })
